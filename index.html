@@ -13,7 +13,26 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>My Geocode App</title>
   </head>
+  <body>
+    <div class="container">
+      <h2 id="text-center">Enter Location:</h2>
+      <form id="location-form">
+        <input
+          type="text"
+          id="location-input"
+          class="form-control form-control-lg"
+        />
+        <br />
+        <button class="btn btn-primary btn-block">Submit</button>
+        <br />
+      </form>
+      <div id="formatted-address" class="card-block"></div>
+      <br />
+      <div id="formatted-components" class="card-block"></div>
+      <br />
+      <div id="geometry" class="card-block"></div>
+    </div>
 
-  <script src="main.js"></script>
-  <body></body>
+    <script src="main.js"></script>
+  </body>
 </html>
